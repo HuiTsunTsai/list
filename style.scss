@@ -1,0 +1,70 @@
+.body{
+    background-color: #b28dbc;
+}
+
+.area1 h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.area2{
+    text-align: center;
+
+    .title{
+        margin-left: -110px;
+        font-size: 13px;
+
+    }
+
+    .input-title{
+        font-size: 13px;
+        margin-bottom: 15px;
+        // position: relative;
+
+        // i{
+        //     position: absolute;
+        //     left: 383px;
+        //     top: 3px;
+        // }
+
+        .button{
+            margin-left: 59px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3d1e59;
+            padding: 5px 8px;
+        }
+        .button:hover{
+            cursor: pointer;
+            background-color: #301935;
+        }
+    
+        .button:active{
+            scale: 1;
+        }
+        
+    }
+
+}
+
+.area3{
+    width: 90px;
+    display: block;
+    background-color: #3f065c;
+    text-align: center;
+    color: beige;
+    font-size: 13px;
+    margin: 30px auto;
+    padding: 8px 6px;
+    border-radius: 5px;
+}
+
+    .area3:hover{
+        cursor: pointer;
+        background-color: #301935;
+    }
+
+    .area3:active{
+        scale: 1;
+    }
